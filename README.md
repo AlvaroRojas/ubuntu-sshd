@@ -45,5 +45,5 @@ root@test_sshd $
 
 ## Issues
 
-If you run into any problems with this image, please check (and potentially file new) issues on the [rastasheep/ubuntu-sshd](https://github.com/rastasheep/ubuntu-sshd/issues) repo, which is the source for this image.
+If you run into any problems with this image, please check (and potentially file new) issues on the [rastasheep/ubuntu-sshd](https://github.com/AlvaroRojas/ubuntu-sshd/issues) repo, which is the source for this image.
 
