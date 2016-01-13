@@ -11,6 +11,10 @@ RUN echo 'root:root' |chpasswd
 RUN sed -ri 's/^PermitRootLogin\s+.*/PermitRootLogin yes/' /etc/ssh/sshd_config
 RUN sed -ri 's/UsePAM yes/#UsePAM yes/g' /etc/ssh/sshd_config
 
+RUN cd /home
+RUN wget http://dl.4players.de/ts/releases/3.0.11.4/teamspeak3-server_linux-amd64-3.0.11.4.tar.gz
+RUN tar zxf teamspeak3-server_linux-amd64-3.0.11.4.tar.gz
+
 EXPOSE 22
 EXPOSE 9987/udp
 EXPOSE 30033
