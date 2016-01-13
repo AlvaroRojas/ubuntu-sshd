@@ -1,5 +1,5 @@
 FROM       ubuntu:14.04
-MAINTAINER Aleksandar Diklic "https://github.com/rastasheep"
+MAINTAINER Aleksandar Diklic "https://github.com/AlvarRojas"
 
 RUN apt-get update
 
